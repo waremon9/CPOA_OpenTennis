@@ -1,0 +1,170 @@
+.recapPaiement{
+  border: solid;
+  margin: 0 auto;
+  width:75%;
+}
+
+.blockBilletterie{
+  margin: 0 auto;
+  width:75%;
+  
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.ticket{
+  width: 75%;
+  margin: 0 auto;
+}
+.ticketType{
+    text-align: center;
+    width: 19.65%;
+    display: inline-block;
+    padding: 3%;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 5px 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.ticketTypePara{
+
+    text-align: left;
+    width: 19.65%;
+    display: inline-block;
+    padding: 3%;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 5px 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+
+.ticketType:link {
+  background-color: #000;
+}
+.ticketType:visited {
+  background-color: #000;
+}
+.ticketType:hover {
+  background-color: #B5B5B5;
+}
+  
+/* Background et style */
+
+.billetterie{
+  text-align: center;
+}
+#userRef{
+  font-size: 40%;
+  text-align: center;
+  display:block;
+}
+#deconnexion{
+  font-size: 60%;
+}
+
+.menu_nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-size: 200%;
+  margin: 0 auto;
+}
+
+.menu_nav li{
+  float: left;
+  border-right: 1px solid #bbb;
+}
+li:last-child {
+  border-right: none;
+}
+
+.menu_nav li :hover{
+  background-color: #555;
+  color: white;
+}
+
+.menu_nav li a{
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+/* CSS Login */
+
+#imgAcceuil{
+  height:70px; 
+  width:70px; 
+  position: relative;
+  left: 50%;
+  margin-left:-2%;
+  margin-bottom:2%;
+}
+
+#coloredbg{
+  margin-top: 2%;
+  background-color: #53af80;
+}
+
+#container{
+    width:80%;
+    margin:0 auto;
+}
+/* Bordered form */
+#container form {
+    max-width:50%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 37%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+/* FIN CSS */
+
+.achatTicket{
+  margin: 0 auto;
+  width: 75%;
+}
